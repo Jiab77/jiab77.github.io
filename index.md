@@ -1,7 +1,6 @@
 ---
 layout: default
-title: ""
-description: ""
+title: Home
 ---
 
 ## Who am I?

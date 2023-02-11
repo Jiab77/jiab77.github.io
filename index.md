@@ -1,6 +1,6 @@
 ---
 layout: default
-title: none
+title: ""
 ---
 
 ## Who am I?

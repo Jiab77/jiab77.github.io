@@ -15,11 +15,12 @@ description: This page is dedicated to syntax and plugin tests.
 
 ## Navigation
 
+<!-- Navigation tests -->
 <nav>
     <ul>
-        {% for p in site.pages %}
+        {% for navLink in site.pages %}
             <li>
-                <a href="{{ p.url }}">{{ p.title }}</a>
+                <a href="{{ navLink.url }}">{{ navLink.title }}</a>
             </li>
         {% endfor %}
     </ul>

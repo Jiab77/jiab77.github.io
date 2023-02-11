@@ -14,6 +14,10 @@ Well... It's quite difficult to describe myself...
 
 I'm interested by many domains but I'm mostly using my time for programming, doing security research and ethical hacking.
 
+### Am I doing non-ethical hacking?
+
+Yes but under another screen name.
+
 ## Where to find my work?
 
 I'm hosting my projects in several places but the most interesting ones are on [GitHub](https://github.com/Jiab77).

@@ -16,3 +16,11 @@ I'm interested by many domains but I'm mostly using my time for programming, doi
 ## Where to find my work?
 
 I'm hosting my projects in several places but the most interesting ones are on [GitHub](https://github.com/Jiab77).
+
+## Where to find me?
+
+As you might imagine, I'm not someone very sociable and you'll never find me talking about my private life in public but here are places where I like to be:
+
+* [Twitter](https://twitter.com/jiab77)
+* [Mastodon](https://ioc.exchange/@jiab77)
+* [Telegram](https://t.me/thcorg) ([THC](https://www.thc.org/) Telegram group)

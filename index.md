@@ -16,7 +16,7 @@ I'm interested by many domains but I'm mostly using my time for programming, doi
 
 ### Am I doing non-ethical hacking?
 
-Yes but under another screen name.
+Yes but mostly under another screen name.
 
 ## Where to find my work?
 

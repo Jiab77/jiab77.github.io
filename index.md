@@ -15,4 +15,4 @@ I'm interested by many domains but I'm mostly using my time for programming, doi
 
 ## Where to find my work?
 
-I'm hosting my projects in several places but the most interesting ones are on [GitHub](@Jiab77).
+I'm hosting my projects in several places but the most interesting ones are on [GitHub](https://github.com/Jiab77).

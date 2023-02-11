@@ -1,6 +1,5 @@
 ---
 layout: default
-title: ""
 ---
 
 ## Who am I?
@@ -16,7 +15,7 @@ I'm interested by many domains but I'm mostly using my time for programming, doi
 
 ### Am I doing non-ethical hacking?
 
-Yes but mostly under another screen name.
+Yes, sometimes but mostly under another screen name.
 
 ## Where to find my work?
 

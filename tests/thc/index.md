@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tests page for THC
+title: Test page for THC
 description: This page is dedicated to test things related to the THC group.
 ---
 

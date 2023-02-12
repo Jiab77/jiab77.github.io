@@ -29,7 +29,7 @@ description: This page is dedicated to syntax and plugin tests.
     </ul>
 </nav>
 
-### Inline
+### Inline / Centered
 
 <nav>
     <ul style="width: 37vw; height: 22px; padding: 0; margin: 1rem auto; text-align: center;">

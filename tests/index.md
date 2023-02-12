@@ -32,7 +32,7 @@ description: This page is dedicated to syntax and plugin tests.
 ### Inline
 
 <nav>
-    <ul style="width: 35vw; height: 22px; margin: 1rem auto; text-align: center;">
+    <ul style="width: 37vw; height: 22px; padding: 0; margin: 1rem auto; text-align: center;">
         {% for my_page in site.pages %}
           {% if my_page.title %}
             <li style="float: left; margin-left: 3rem;">

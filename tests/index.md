@@ -32,10 +32,10 @@ description: This page is dedicated to syntax and plugin tests.
 ### Inline
 
 <nav>
-    <ul style="display: inline-block; text-align: center;">
+    <ul style="width: 35vw; height: 22px; margin: 1rem auto; text-align: center;">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-            <li style="list-style-type: none;">
+            <li style="float: left; margin-left: 3rem;">
                 <a href="{{ my_page.url }}">{{ my_page.title }}</a>
             </li>
           {% endif %}

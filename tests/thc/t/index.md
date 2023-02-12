@@ -1,4 +1,5 @@
 ---
+theme: jekyll-theme-cayman
 layout: default
 title: A Free Telegram Proxy
 description: This projects allows users to bypass country blocks and add a extra layer of security to Telegram.

@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "jekyll-theme-hacker";
+@import "{{ site.theme }}";
 
 // Hides useless download button
 #downloads {

@@ -18,9 +18,10 @@ description: This page is dedicated to syntax and plugin tests.
 <!-- Navigation tests -->
 <nav>
     <ul>
-        {% for navLink in site.pages | where_exp: "title", "navLink.title != nil" %}
+        {% assign my_pages = site.pages | where_exp: "item", "item.title != empty" %}
+        {% for my_page in my_pages %}
             <li>
-                <a href="{{ navLink.url }}">{{ navLink.title }}</a>
+                <a href="{{ my_page.url }}">{{ my_page.title }}</a>
             </li>
         {% endfor %}
     </ul>

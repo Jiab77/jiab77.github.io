@@ -34,7 +34,8 @@ description: This page is dedicated to syntax and plugin tests.
 
 <nav>
     <ul style="width: 37vw; height: 22px; padding: 0; margin: 1rem auto; text-align: center;">
-        {% for my_page in site.pages %}
+        {% assign my_pages = site.pages | reverse %}
+        {% for my_page in my_pages %}
           {% if my_page.title %}
             <li style="float: left; margin-left: 3rem;">
                 <a href="{{ my_page.url }}">{{ my_page.title }}</a>

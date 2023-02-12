@@ -19,7 +19,7 @@ description: This page is dedicated to syntax and plugin tests.
 
 <nav>
     <ul>
-        {% assign my_pages = site.pages | sort: "title", "first" %}
+        {% assign my_pages = site.pages | reverse %}
         {% for my_page in my_pages %}
           {% if my_page.title %}
             <li>

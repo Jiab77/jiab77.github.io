@@ -18,11 +18,12 @@ description: This page is dedicated to syntax and plugin tests.
 <!-- Navigation tests -->
 <nav>
     <ul>
-        {% assign my_pages = site.pages | where_exp: "item", "item.title != ''" %}
         {% for my_page in my_pages %}
+          {% if my_page.title %}
             <li>
                 <a href="{{ my_page.url }}">{{ my_page.title }}</a>
             </li>
+          {% endif %}
         {% endfor %}
     </ul>
 </nav>

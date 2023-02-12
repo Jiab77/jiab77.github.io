@@ -18,7 +18,7 @@ description: This page is dedicated to syntax and plugin tests.
 <!-- Navigation tests -->
 <nav>
     <ul>
-        {% for my_page in my_pages %}
+        {% for my_page in site.pages %}
           {% if my_page.title %}
             <li>
                 <a href="{{ my_page.url }}">{{ my_page.title }}</a>

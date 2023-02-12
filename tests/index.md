@@ -4,14 +4,10 @@ title: Tests page
 description: This page is dedicated to syntax and plugin tests.
 ---
 
-<!-- Markdown section using YAML title -->
-## {{ page.title }}
+<!-- HTML section using YAML title for THC -->
+<div style="text-align:center"><h1>{{ page.title }}</h1></div>
 
 {{ page.description }}
-
-<!-- HTML section using YAML title for THC -->
-<div style="text-align:center"><h2>{{ page.title }}</h2></div>
-<p>{{ page.description }}</p>
 
 ## Navigation
 
@@ -31,6 +27,8 @@ description: This page is dedicated to syntax and plugin tests.
 </nav>
 
 ### Inline / Centered
+
+_Not working properly on mobile yet..._
 
 <nav>
     <ul style="width: 37vw; height: 22px; padding: 0; margin: 1rem auto; text-align: center;">

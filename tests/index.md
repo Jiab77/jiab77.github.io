@@ -15,12 +15,27 @@ description: This page is dedicated to syntax and plugin tests.
 
 ## Navigation
 
-<!-- Navigation tests -->
+### Classical
+
 <nav>
     <ul>
         {% for my_page in site.pages %}
           {% if my_page.title %}
             <li>
+                <a href="{{ my_page.url }}">{{ my_page.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
+
+### Inline
+
+<nav>
+    <ul style="display: inline-block; text-align: center;">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+            <li style="list-style-type: none;">
                 <a href="{{ my_page.url }}">{{ my_page.title }}</a>
             </li>
           {% endif %}

@@ -19,7 +19,7 @@ description: This page is dedicated to syntax and plugin tests.
 
 <nav>
     <ul>
-        {% for my_page in site.pages %}
+        {% for my_page in site.pages | sort: "title", "last" %}
           {% if my_page.title %}
             <li>
                 <a href="{{ my_page.url }}">{{ my_page.title }}</a>

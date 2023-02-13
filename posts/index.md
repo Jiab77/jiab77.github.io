@@ -9,6 +9,8 @@ description: This page is an index of all published posts.
 
 {{ page.description }}
 
+{% include top-navigation.md %}
+
 ## Index
 
 <ul>

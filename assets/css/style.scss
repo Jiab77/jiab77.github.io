@@ -20,11 +20,13 @@
 .gist .gist-meta {
     display: none !important;
 }
-.gist .gist-file,
-.gist .gist-data {
+.gist .gist-file {
     // border: 1px solid #63c0f5 !important;
     // border: 1px solid #b5e853 !important;
     border: none !important;
+}
+.gist .gist-data {
+    border-bottom: 1px dashed #b5e853 !important;
 }
 .gist .gist-data,
 .gist .gist-meta,

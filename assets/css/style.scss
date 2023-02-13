@@ -14,7 +14,14 @@
 .gist .gist-meta {
     color: #eaeaea !important;
 }
-.gist .gist-file {
+.gist .gist-meta a {
+    color: #63c0f5 !important;
+}
+.gist .gist-meta {
+    display: none !important;
+}
+.gist .gist-file,
+.gist .gist-data {
     // border: 1px solid #63c0f5 !important;
     // border: 1px solid #b5e853 !important;
     border: none !important;
@@ -27,12 +34,6 @@
 .gist .markdown-body .highlight pre,
 .gist .markdown-body pre {
     background-color: #151515 !important;
-}
-/* .gist .gist-meta a {
-    color: #63c0f5 !important;
-} */
-.gist .gist-meta {
-    display: none !important;
 }
 .gist .markdown-body h1 {
     display: none !important;

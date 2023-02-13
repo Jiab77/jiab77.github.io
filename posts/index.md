@@ -6,7 +6,7 @@ description: This page is an index of all published posts.
 
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
-<div style="text-align: center; padding-top: 1rem;"><h1>{{ page.title }}</h1></div>
+<div style="text-align: center;"><h1>{{ page.title }}</h1></div>
 
 {{ page.description }}
 

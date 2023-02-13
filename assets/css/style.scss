@@ -8,3 +8,11 @@
 #downloads {
     display: none !important;
 }
+
+// Design patch for gists as posts
+.gist {
+    color: #eaeaea !important;
+}
+.gist .gist-data {
+    background: #151515 url("../images/bkg.png") 0 0 !important;
+}

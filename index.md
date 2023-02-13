@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+{% include top-navigation.md %}
+
 ## Who am I?
 
 Well... It's quite difficult to describe myself...

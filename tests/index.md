@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tests page
+title: Tests
 description: This page is dedicated to syntax and plugin tests.
 ---
 

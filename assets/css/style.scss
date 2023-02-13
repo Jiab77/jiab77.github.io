@@ -16,3 +16,7 @@
 .gist .gist-data {
     background: #151515 url("../images/bkg.png") 0 0 !important;
 }
+.gist .markdown-body .highlight pre,
+.gist .markdown-body pre {
+    background-color: transparent !important;
+}

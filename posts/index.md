@@ -8,7 +8,7 @@ description: This page is an index of all published posts.
 
 {{ page.description }}
 
-{% include top-navigation.md %}
+{% include top-navigation.html margin-top="-9rem" margin-bottom="8rem" %}
 
 ## Index
 

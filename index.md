@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-{% include top-navigation.md %}
+{% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
 ## Who am I?
 

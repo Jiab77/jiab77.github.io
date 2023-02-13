@@ -17,13 +17,14 @@
     border: 1px solid #63c0f5 !important;
 }
 .gist .gist-data,
+.gist .gist-meta,
 .gist .highlight {
     background: #151515 url("../images/bkg.png") 0 0 !important;
 }
-/* .gist .highlight {
-    background: #151515 !important;
-} */
-.gist .markdown-body .highlight pre,
+/* .gist .markdown-body .highlight pre,
 .gist .markdown-body pre {
     background-color: #151515 !important;
+} */
+.gist .gist-meta a {
+    color: #63c0f5 !important;
 }

@@ -22,7 +22,7 @@ Yes, sometimes but mostly under another screen name.
 
 ## Where to find my work?
 
-I'm hosting my projects in several places but the most interesting ones are on [GitHub](https://github.com/Jiab77).
+I'm hosting my projects on several places but the most interesting ones are on [GitHub](https://github.com/Jiab77).
 
 ## Where to find me?
 

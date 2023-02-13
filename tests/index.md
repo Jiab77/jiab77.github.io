@@ -31,7 +31,7 @@ description: This page is dedicated to syntax and plugin tests.
 _Not working properly on mobile yet..._
 
 <nav>
-    <ul style="width: 44vw; height: 22px; padding: 0; margin: 1rem auto; text-align: center;">
+    <ul style="width: fit-content; height: 22px; padding: 0; margin: 1rem auto;">
         {% assign my_pages = site.pages | reverse %}
         {% for my_page in my_pages %}
           {% if my_page.title %}

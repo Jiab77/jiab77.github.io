@@ -10,7 +10,8 @@
 }
 
 // Design patch for gists as posts
-.gist {
+.gist,
+.gist .gist-meta {
     color: #eaeaea !important;
 }
 .gist .gist-file {

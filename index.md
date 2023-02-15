@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Home of a ghost
 ---
 
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}

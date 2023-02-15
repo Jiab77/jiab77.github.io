@@ -17,6 +17,9 @@ description: This page is dedicated to test things related to the THC group.
             <span>{{ page.title }}</span>
         </li>
         <li>
+            <a href="/tests/thc/t">A Free Telegram Proxy</a>
+        </li>
+        <li>
             <a href="/tests">Tests</a>
         </li>
         <li>

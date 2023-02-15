@@ -31,4 +31,4 @@ THIS IS BETA TESTING AT THE MOMENT. TALK TO US IF YOU LIKE TO SEE ANY SPECIFIC F
 
 ## Contact
 
-{% include thc-contact.md %}
+{% include test-thc-contact.md %}

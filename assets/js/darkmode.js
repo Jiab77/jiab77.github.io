@@ -6,6 +6,14 @@
     // Patch version
     const darkModePatchVersion = '0.0.0';
 
+    // Define theme colors
+    const darkModeColors = {
+        background: '#111',
+        headers: '#0beb7b',
+        text: '#a8b2b7',
+        links: '#00b7ff'
+    }
+
     // Show version on load
     console.log(`Dark mode patch loaded.\n\nVersion: ${darkModePatchVersion}`);
 
@@ -37,16 +45,16 @@
         const headerTags = document.querySelectorAll('h2, h3');
         const links = document.querySelectorAll('a');
 
-        body.style.backgroundColor = '#111';
-        body.style.color = '#a8b2b7';
+        body.style.backgroundColor = darkModeColors.background;
+        body.style.color = darkModeColors.text;
         headerTags.forEach(element => {
             // console.log(element.parentElement.nodeName);
             if (element.parentElement.nodeName !== 'HEADER') {
-                element.style.color = '#0beb7b';
+                element.style.color = darkModeColors.headers;
             }
         });
         links.forEach(element => {
-            element.style.color = '#00b7ff';
+            element.style.color = darkModeColors.links;
         });
     }
 
@@ -61,12 +69,10 @@
         headerTags.forEach(element => {
             // console.log(element.parentElement.nodeName);
             if (element.parentElement.nodeName !== 'HEADER') {
-                // element.style.color = '#159957';
                 element.style.color = '';
             }
         });
         links.forEach(element => {
-            // element.style.color = '#1e6bb8';
             element.style.color = '';
         });
     }

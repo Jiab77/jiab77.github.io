@@ -34,10 +34,15 @@
     function applyTheme() {
         const body = document.querySelector('body');
         const headerTags = document.querySelectorAll('h2, h3');
+        const links = document.querySelectorAll('a');
 
         body.style.backgroundColor = '#111';
         headerTags.forEach(element => {
+            console.log(element.parentElement.nodeName);
             element.style.color = '#0beb7b';
+        });
+        links.forEach(element => {
+            element.style.color = '#00b7ff';
         });
     }
 
@@ -45,11 +50,15 @@
     function removeTheme() {
         const body = document.querySelector('body');
         const headerTags = document.querySelectorAll('h2, h3');
+        const links = document.querySelectorAll('a');
 
         body.style.backgroundColor = '';
         headerTags.forEach(element => {
-            console.log(element.parentElement);
+            console.log(element.parentElement.nodeName);
             element.style.color = '#159957';
+        });
+        links.forEach(element => {
+            element.style.color = '#1e6bb8';
         });
     }
 

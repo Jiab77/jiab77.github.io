@@ -1,13 +1,13 @@
 "use strict";
 
-const darkModePatchVersion = '0.0.0';
-
 (function () {
     "use strict";
 
+    // Patch version
+    const darkModePatchVersion = '0.0.0';
+
     // Show version on load
-    console.log('Dark mode patch loaded.');
-    console.log('Version: ' + darkModePatchVersion);
+    console.log(`Dark mode patch loaded.\n\nVersion: ${darkModePatchVersion}`);
 
     // Create the media query.
     const darkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
@@ -25,6 +25,88 @@ const darkModePatchVersion = '0.0.0';
     // Target 'header' DOM element
     const header = document.getElementsByTagName('header')[0];
     const headerH1 = document.getElementsByClassName('project-name')[0];
-    const headerContainer = document.querySelector('header .container');
-    console.log(header, headerH1, headerContainer);
+    // console.log(header, headerH1);
+
+    // Inject theme selector before header 'h1' DOM element
+    header.insertBefore(darkModeSelector, headerH1);
+
+    // Apply dark theme
+    function applyTheme() {
+        const body = document.querySelector('body');
+        const headerTags = document.querySelectorAll('h2, h3');
+
+        body.style.backgroundColor = '#111';
+        headerTags.forEach(element => {
+            element.style.color = '#0beb7b';
+        });
+    }
+
+    // Remove dark theme
+    function removeTheme() {
+        const body = document.querySelector('body');
+        const headerTags = document.querySelectorAll('h2, h3');
+
+        body.style.backgroundColor = '';
+        headerTags.forEach(element => {
+            element.style.color = '#159957';
+        });
+    }
+
+    // Store selected theme
+    function storeThemeChange(query) {
+        sessionStorage.setItem('dark-mode', query);
+    }
+
+    // Theme change handler
+    function handleThemeChange(query) {
+        console.log('Received query:', query);
+
+        // Reset 'darkModeSelector' content
+        darkModeSelector.innerHTML = '';
+
+        // Create child element selector
+        const imgSelector = document.createElement('img');
+        imgSelector.id = 'icon-selector';
+        imgSelector.style.cursor = 'pointer';
+        imgSelector.style.width = '18px';
+        imgSelector.style.height = '18px';
+        imgSelector.style.marginTop = '3px';
+
+        // Assign 'imgSelector' click handler
+        imgSelector.onclick = () => {
+            // Apply the 'toggle' effect by always inversing the mached value
+            handleThemeChange({ matches: !query.matches });
+        }
+
+        // Load dark theme
+        if (query.matches && query.matches === true) {
+            console.log('Injecting dark theme.');
+            imgSelector.src = `data:image/svg+xml;base64,${lightModeIcon}`;
+            imgSelector.title = 'Toggle light mode';
+            darkModeSelector.appendChild(imgSelector);
+            applyTheme();
+        }
+        // Load light theme (means unload dark theme css file)
+        else {
+            console.log('Removing dark theme.');
+            imgSelector.src = `data:image/svg+xml;base64,${darkModeIcon}`;
+            imgSelector.title = 'Toggle dark mode';
+            darkModeSelector.appendChild(imgSelector);
+            removeTheme();
+        }
+
+        // Store theme change
+        storeThemeChange(JSON.stringify({ matches: query.matches }));
+    }
+
+    // Initial theme load
+    handleThemeChange(JSON.parse(sessionStorage.getItem('dark-mode')) || darkModeQuery);
+
+    // Monitor query changes
+    darkModeQuery.addEventListener('change', handleThemeChange);
+
+    // Remove listener on unload
+    window.onunload = () => {
+        darkModeQuery.removeEventListener('change');
+    }
 })();

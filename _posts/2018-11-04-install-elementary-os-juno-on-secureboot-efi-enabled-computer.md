@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install ElementaryOS Juno on SecureBoot + EFI enabled computer
+title: Install ElementaryOS - Juno on SecureBoot + EFI enabled computer
 description: Installation guide with SecureBoot and EFI of ElementaryOS - Juno.
 tags: linux elementary juno
 ---

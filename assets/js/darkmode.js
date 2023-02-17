@@ -39,7 +39,7 @@
         body.style.backgroundColor = '#111';
         headerTags.forEach(element => {
             console.log(element.parentElement.nodeName);
-            if (!element.parentElement.nodeName === 'HEADER') {
+            if (element.parentElement.nodeName !== 'HEADER') {
                 element.style.color = '#0beb7b';
             }
         });
@@ -57,7 +57,7 @@
         body.style.backgroundColor = '';
         headerTags.forEach(element => {
             console.log(element.parentElement.nodeName);
-            if (!element.parentElement.nodeName === 'HEADER') {
+            if (element.parentElement.nodeName !== 'HEADER') {
                 element.style.color = '#159957';
             }
         });

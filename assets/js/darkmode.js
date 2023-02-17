@@ -37,6 +37,7 @@
         const links = document.querySelectorAll('a');
 
         body.style.backgroundColor = '#111';
+        body.style.color = '#a8b2b7';
         headerTags.forEach(element => {
             // console.log(element.parentElement.nodeName);
             if (element.parentElement.nodeName !== 'HEADER') {
@@ -55,14 +56,17 @@
         const links = document.querySelectorAll('a');
 
         body.style.backgroundColor = '';
+        body.style.color = '';
         headerTags.forEach(element => {
             // console.log(element.parentElement.nodeName);
             if (element.parentElement.nodeName !== 'HEADER') {
-                element.style.color = '#159957';
+                // element.style.color = '#159957';
+                element.style.color = '';
             }
         });
         links.forEach(element => {
-            element.style.color = '#1e6bb8';
+            // element.style.color = '#1e6bb8';
+            element.style.color = '';
         });
     }
 

@@ -4,7 +4,7 @@
     "use strict";
 
     // Patch version
-    const darkModePatchVersion = '0.0.0';
+    const darkModePatchVersion = '0.1.0';
 
     // Define theme colors
     const darkModeColors = {

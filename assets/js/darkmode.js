@@ -23,7 +23,8 @@ const darkModePatchVersion = '0.0.0';
     darkModeSelector.style.marginLeft = '15px';
 
     // Target 'header' DOM element
-    const header = document.getElementsByTagName('header');
+    const header = document.getElementsByTagName('header')[0];
     const headerH1 = document.getElementsByClassName('project-name')[0];
-    console.log(header, headerH1);
+    const headerContainer = document.querySelector('header .container');
+    console.log(header, headerH1, headerContainer);
 })();

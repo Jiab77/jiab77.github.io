@@ -4,10 +4,14 @@ title: A Free Telegram Proxy
 description: This projects allows users to bypass country blocks and add a extra layer of security to Telegram.
 ---
 
+{% if site.theme == "jekyll-theme-hacker" %}
+
 <!-- HTML section using YAML title for THC | Required with my theme -->
 <div style="text-align:center"><h1>{{ page.title }}</h1></div>
 
 {{ page.description }}
+
+{% endif %}
 
 ## Setup
 

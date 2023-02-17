@@ -48,6 +48,7 @@
 
         body.style.backgroundColor = '';
         headerTags.forEach(element => {
+            console.log(element.parentElement);
             element.style.color = '#159957';
         });
     }

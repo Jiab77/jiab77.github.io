@@ -39,7 +39,9 @@
         body.style.backgroundColor = '#111';
         headerTags.forEach(element => {
             console.log(element.parentElement.nodeName);
-            element.style.color = '#0beb7b';
+            if (!element.parentElement.nodeName === 'HEADER') {
+                element.style.color = '#0beb7b';
+            }
         });
         links.forEach(element => {
             element.style.color = '#00b7ff';
@@ -55,7 +57,9 @@
         body.style.backgroundColor = '';
         headerTags.forEach(element => {
             console.log(element.parentElement.nodeName);
-            element.style.color = '#159957';
+            if (!element.parentElement.nodeName === 'HEADER') {
+                element.style.color = '#159957';
+            }
         });
         links.forEach(element => {
             element.style.color = '#1e6bb8';

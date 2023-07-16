@@ -27,4 +27,6 @@ If you want to also share your internet to those who need it, just copy/paste th
 <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
 ```
 
+## Contact
+
 {% include contact-details.md %}

@@ -5,16 +5,6 @@ title: Tor / Snowflake
 
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
-## How it works
-
-Tor / Snowflake will allow others living in countries where the internet access is restricted to access to the free internet while this tab is kept open.
-
-Don't hesitate to read the [technical overview](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview) to learn more about it.
-
-> You might have to allow/enable third party cookies just for this page to make it work.
->
-> Please check the web console in case of issues.
-
 ## Snowflake
 
 The main project page is reachable here: [https://snowflake.torproject.org](https://snowflake.torproject.org)
@@ -26,6 +16,16 @@ If you want to also share your internet to those who need it, just copy/paste th
 ```html
 <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
 ```
+
+## How it works
+
+Tor / Snowflake will allow others living in countries where the internet access is restricted to access to the free internet while this tab is kept open.
+
+Don't hesitate to read the [technical overview](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview) to learn more about it.
+
+> You might have to allow/enable third party cookies just for this page to make it work.
+>
+> Please check the web console in case of issues.
 
 ## Contact
 

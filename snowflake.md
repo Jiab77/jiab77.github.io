@@ -9,7 +9,7 @@ title: Tor / Snowflake
 
 The main project page is reachable here: [https://snowflake.torproject.org](https://snowflake.torproject.org)
 
-<iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://snowflake.torproject.org/embed.html" width="320" height="280" frameborder="0" scrolling="no"></iframe>
 
 If you want to also share your internet to those who need it, just copy/paste this line in any page:
 

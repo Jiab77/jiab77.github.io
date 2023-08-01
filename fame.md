@@ -20,6 +20,8 @@ Here are some of my biggest discoveries:
 * __StripChat__
 * __Social Network__ (_will be disclosed soon_)
 
+> All my discoveries are accidental 😅
+
 ## Contact
 
 {% include contact-details.md %}

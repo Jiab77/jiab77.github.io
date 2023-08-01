@@ -3,6 +3,10 @@ layout: default
 title: Hall of Fame
 ---
 
+<!-- Begin of ugly CSS navigation styling hack -->
+<style>a[href$="/fame"] { font-weight: bold; }</style>
+<!-- End of ugly CSS navigation styling hack -->
+
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
 ## Success

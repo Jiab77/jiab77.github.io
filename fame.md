@@ -18,7 +18,7 @@ Here are some of my biggest discoveries:
 * __SpeedLight__
 * __Lovense__
 * __StripChat__
-* __Social Network__ (_will be disclosed soon_)
+* __Twitter/X__
 
 > All my discoveries are accidental 😅
 

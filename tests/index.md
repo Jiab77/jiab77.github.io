@@ -4,7 +4,7 @@ title: Tests
 description: This page is dedicated to syntax and plugin tests.
 ---
 
-{% include css-nav-style.html page-target="/posts" %}
+{% include css-nav-style.html page-target="/tests" %}
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
 <!-- HTML section using YAML title for THC -->

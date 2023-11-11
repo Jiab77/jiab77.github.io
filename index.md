@@ -4,9 +4,10 @@ title: Home of a ghost
 ---
 
 <!-- Begin of ugly CSS navigation styling hack -->
-<style>a[href="/"] { font-weight: bold; text-decoration: none; }</style>
+<!-- <style>a[href="/"] { font-weight: bold; text-decoration: none; }</style> -->
 <!-- End of ugly CSS navigation styling hack -->
 
+{% include css-nav-style.html page-target="/" %}
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
 ## Who am I?

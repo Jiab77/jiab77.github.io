@@ -4,10 +4,7 @@ title: All posts
 description: This page is an index of all published posts.
 ---
 
-<!-- Begin of ugly CSS navigation styling hack -->
-<style>a[href$="/posts"] { font-weight: bold; text-decoration: none; }</style>
-<!-- End of ugly CSS navigation styling hack -->
-
+{% include css-nav-style.html page-target="/posts" %}
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
 <div style="text-align: center;"><h1>{{ page.title }}</h1></div>

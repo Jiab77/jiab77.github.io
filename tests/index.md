@@ -4,6 +4,9 @@ title: Tests
 description: This page is dedicated to syntax and plugin tests.
 ---
 
+{% include css-nav-style.html page-target="/posts" %}
+{% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
+
 <!-- HTML section using YAML title for THC -->
 <div style="text-align:center"><h1>{{ page.title }}</h1></div>
 

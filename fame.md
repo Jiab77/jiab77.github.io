@@ -4,9 +4,10 @@ title: Hall of Fame
 ---
 
 <!-- Begin of ugly CSS navigation styling hack -->
-<style>a[href$="/fame"] { font-weight: bold; text-decoration: none; }</style>
+<!-- <style>a[href$="/fame"] { font-weight: bold; text-decoration: none; }</style> -->
 <!-- End of ugly CSS navigation styling hack -->
 
+{% include css-nav-style.html page-target="/fame" %}
 {% include top-navigation.html margin-top="-1rem" margin-bottom="2rem" %}
 
 ## Success

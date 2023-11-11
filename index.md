@@ -27,6 +27,6 @@ I'm hosting my projects on several places but the most interesting ones are on [
 
 ## Where to find me?
 
-As you might imagine, I'm not someone very sociable and you'll never find me talking about my private life in public but here are places where I like to be:
+As you might imagine, I'm not someone very sociable and you'll never find me talking about my private life in public but here are some places where I like to be:
 
 {% include contact-details.md %}

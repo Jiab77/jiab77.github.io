@@ -15,7 +15,7 @@ Well... It's quite difficult to describe myself...
 
 ## What am I doing?
 
-I'm interested by many domains but I'm mostly using my time for programming, doing security research and ethical hacking.
+I'm interested by many domains but I'm mostly using my time at doing security research, creating projects in various programming languages and ethical hacking.
 
 ### Am I doing non-ethical hacking?
 

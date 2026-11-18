@@ -25,6 +25,13 @@ Yes, sometimes but mostly under another screen name.
 
 I'm hosting my projects on several places but the most interesting ones are on [GitHub](https://github.com/Jiab77).
 
+## Where to find my publications?
+
+I'm rarely publishing my work outside the gists I'm [posting](/posts) but sometimes it ends on more famous platforms:
+
+- **[The Confined Agent: Browser Automation Without Privilege](https://phrack.org/issues/73/linenoise_md#agent)** — Phrack Magazine, Issue #73, Linenoise section (2026-11-17).
+- **[Hacking with the Browser's Web Console](https://iq.thc.org/web-console)** — THC Knowledge Base (2022-10-22).
+
 ## Where to find me?
 
 As you might imagine, I'm not someone very sociable and you'll never find me talking about my private life in public but here are some places where I like to be:

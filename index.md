@@ -32,6 +32,8 @@ I'm rarely publishing my work outside the gists I'm [posting](/posts) but someti
 - **[The Confined Agent: Browser Automation Without Privilege](https://phrack.org/issues/73/linenoise_md#agent)** — Phrack Magazine, Issue #73, Linenoise section (2026-11-17).
 - **[Hacking with the Browser's Web Console](https://iq.thc.org/web-console)** — THC Knowledge Base (2022-10-22).
 
+> Thanks to those who are believing in me, they will recognize themselves. Without you, none of my work would have seen the light.
+
 ## Where to find me?
 
 As you might imagine, I'm not someone very sociable and you'll never find me talking about my private life in public but here are some places where I like to be:
